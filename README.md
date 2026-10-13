@@ -66,17 +66,16 @@ Agile / Scrum / Kanban / Pair Programming / TDD / Code Review / Continuous Integ
 
 **Senior Full-Stack Engineer – Telehealth Platform**
 
-Charles.co is a French telehealth platform (online medical consultations, pharmacy and patient follow-up), with Cercle, its patient coaching product. Full-stack work across the Charles monorepo (patient front-end and OMS back-office), the Cercle mobile app, Cercle Core and the onboarding.
+Charles.co is a French telehealth platform (online consultations, pharmacy, patient follow-up) and Cercle its patient coaching product. Full-stack engineer across 7 repositories: patient front-end, OMS back-office, Cercle mobile app, Cercle Core and onboarding.
 
-- Built an MCP server on the OMS (Rails) exposing patient tools (consultations, prescriptions, orders, bills) to Intercom Fin, with JWT patient authentication, kill switch and Datadog logging
-- Shipped consultation and messaging features: pre-closing modal, regulatory call field, "no call needed" options, messaging page, call flow connected to the backend, feature flags
-- Developed the pharmacy funnel and patient space features: Body Reset program integration, Withings integration ("Ma balance" section), outro A/B test
-- Built doctor availability management (monthly view, saved templates, communication channels)
-- Cercle mobile app (Expo / React Native): weekly-protocol reminders, progress charts, PostHog tracking, chat redirections per check-in, injection count in webviews, build and Android SDK maintenance
-- Cercle Core and onboarding: coach chat on Stream (broadcast messages, search, patient notes, check-in side effects), check-in tooling and filters, injection count question and queries, access restriction fixes (coach-scoped patient data)
-- Refactored PostHog and Datadog integrations into an agnostic, feature-based architecture; CI, Dependabot rules, E2E refactoring, landing page updates and AI-assisted dev tooling (Cursor rules, agent skills)
+- Built an MCP server on the OMS exposing 7 patient tools (consultations, prescriptions, bills, deliveries) to the Intercom Fin AI agent, secured with JWT patient auth, a kill switch and Datadog logging
+- Shipped the consultation and messaging flow: closing modal, regulatory call tracking, "no call needed" options, messaging page, feature-flagged rollouts
+- Developed pharmacy funnel and patient space features: Body Reset program, Withings smart scale section, outro A/B test
+- Delivered Cercle mobile app features (Expo / React Native): weekly-protocol reminders, progress charts, PostHog tracking, Android SDK and build upgrades
+- Extended Cercle Core coach tooling on Stream Chat: broadcast messaging, search, patient notes, check-in tools, and hardened coach-scoped access to patient data
+- Re-architected PostHog and Datadog into agnostic, feature-based modules; improved CI, Dependabot and E2E setup
 
-**Tech**: React / React Native / Expo / TypeScript / Vite / Zustand / Tailwind / Ruby on Rails / PostgreSQL / GraphQL / Sidekiq / RSpec / MCP / Intercom Fin / Stream Chat / PostHog / Datadog
+**Tech**: React / React Native / Expo / TypeScript / Vite / Zustand / Ruby on Rails / PostgreSQL / RSpec / MCP / Intercom Fin / Stream Chat / PostHog / Datadog
 
 ### **[Ynexis / Yakeey](https://yakeey.com/)** — _2025_
 
