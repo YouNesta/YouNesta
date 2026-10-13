@@ -62,7 +62,23 @@ Agile / Scrum / Kanban / Pair Programming / TDD / Code Review / Continuous Integ
 
 ## 💼 Professional Experience
 
-### **[Ynexis / Yakeey](https://yakeey.com/)** — _2025 (Current)_
+### **[Charles.co](https://www.charles.co/)** — _February 2026 (Current)_
+
+**Senior Full-Stack Engineer – Telehealth Platform**
+
+Charles.co is a French telehealth platform (online medical consultations, pharmacy and patient follow-up), with Cercle, its patient coaching product. Full-stack work across the Charles monorepo (patient front-end and OMS back-office), the Cercle mobile app, Cercle Core and the onboarding.
+
+- Built an MCP server on the OMS (Rails) exposing patient tools (consultations, prescriptions, orders, bills) to Intercom Fin, with JWT patient authentication, kill switch and Datadog logging
+- Shipped consultation and messaging features: pre-closing modal, regulatory call field, "no call needed" options, messaging page, call flow connected to the backend, feature flags
+- Developed the pharmacy funnel and patient space features: Body Reset program integration, Withings integration ("Ma balance" section), outro A/B test
+- Built doctor availability management (monthly view, saved templates, communication channels)
+- Cercle mobile app (Expo / React Native): weekly-protocol reminders, progress charts, PostHog tracking, chat redirections per check-in, injection count in webviews, build and Android SDK maintenance
+- Cercle Core and onboarding: coach chat on Stream (broadcast messages, search, patient notes, check-in side effects), check-in tooling and filters, injection count question and queries, access restriction fixes (coach-scoped patient data)
+- Refactored PostHog and Datadog integrations into an agnostic, feature-based architecture; CI, Dependabot rules, E2E refactoring, landing page updates and AI-assisted dev tooling (Cursor rules, agent skills)
+
+**Tech**: React / React Native / Expo / TypeScript / Vite / Zustand / Tailwind / Ruby on Rails / PostgreSQL / GraphQL / Sidekiq / RSpec / MCP / Intercom Fin / Stream Chat / PostHog / Datadog
+
+### **[Ynexis / Yakeey](https://yakeey.com/)** — _2025_
 
 **Tech Lead – Real Estate Estimation Platform**
 
