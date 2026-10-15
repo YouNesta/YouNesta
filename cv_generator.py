@@ -40,7 +40,11 @@ content.append(Spacer(1, 12))
 content.append(Paragraph("Professional Experiences", style_section))
 
 experiences = [
-    ("Ynexis / Yakeey", "2025 (Current)", "Tech Lead – Real Estate Estimation Platform", """
+    ("Charles.co", "February 2026 (Current)", "Senior Full-Stack Engineer – Telehealth Platform", """
+Charles.co is a French telehealth platform (online consultations, pharmacy, patient follow-up) and Cercle its patient coaching product. Full-stack engineer across 7 repositories: patient front-end, OMS back-office, Cercle mobile app, Cercle Core and onboarding. Built an MCP server on the OMS exposing 7 patient tools (consultations, prescriptions, bills, deliveries) to the Intercom Fin AI agent, secured with JWT patient auth, a kill switch and Datadog logging. Shipped the consultation and messaging flow: closing modal, regulatory call tracking, "no call needed" options, messaging page, feature-flagged rollouts. Developed pharmacy funnel and patient space features: Body Reset program, Withings smart scale section, outro A/B test. Delivered Cercle mobile app features (Expo / React Native): weekly-protocol reminders, progress charts, PostHog tracking, Android SDK and build upgrades. Extended Cercle Core coach tooling on Stream Chat: broadcast messaging, search, patient notes, check-in tools, and hardened coach-scoped access to patient data. Re-architected PostHog and Datadog into agnostic, feature-based modules; improved CI, Dependabot and E2E setup.<br/>
+<b>Tech:</b> React / React Native / Expo / TypeScript / Vite / Zustand / Ruby on Rails / PostgreSQL / RSpec / MCP / Intercom Fin / Stream Chat / PostHog / Datadog
+"""),
+    ("Ynexis / Yakeey", "2025", "Tech Lead – Real Estate Estimation Platform", """
 Ynexis develops advanced real estate estimation tools for real estate agents and professionals. Responsible for the architecture, development, and integration of AI-based estimation models. Created internal tools for model performance measurement and maintained the sales and purchase platform. Implemented a design system ensuring brand consistency across all interfaces.<br/>
 <b>Tech:</b> React / Next.js / React Testing Library / Vite / ApexCharts / Rechart / MUI / Redux / TypeScript / Storybook / Cypress / Zustand / Tailwind / Jest / SWC
 """),

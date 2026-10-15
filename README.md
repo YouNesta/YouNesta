@@ -62,7 +62,22 @@ Agile / Scrum / Kanban / Pair Programming / TDD / Code Review / Continuous Integ
 
 ## 💼 Professional Experience
 
-### **[Ynexis / Yakeey](https://yakeey.com/)** — _2025 (Current)_
+### **[Charles.co](https://www.charles.co/)** — _February 2026 (Current)_
+
+**Senior Full-Stack Engineer – Telehealth Platform**
+
+Charles.co is a French telehealth platform (online consultations, pharmacy, patient follow-up) and Cercle its patient coaching product. Full-stack engineer across 7 repositories: patient front-end, OMS back-office, Cercle mobile app, Cercle Core and onboarding.
+
+- Built an MCP server on the OMS exposing 7 patient tools (consultations, prescriptions, bills, deliveries) to the Intercom Fin AI agent, secured with JWT patient auth, a kill switch and Datadog logging
+- Shipped the consultation and messaging flow: closing modal, regulatory call tracking, "no call needed" options, messaging page, feature-flagged rollouts
+- Developed pharmacy funnel and patient space features: Body Reset program, Withings smart scale section, outro A/B test
+- Delivered Cercle mobile app features (Expo / React Native): weekly-protocol reminders, progress charts, PostHog tracking, Android SDK and build upgrades
+- Extended Cercle Core coach tooling on Stream Chat: broadcast messaging, search, patient notes, check-in tools, and hardened coach-scoped access to patient data
+- Re-architected PostHog and Datadog into agnostic, feature-based modules; improved CI, Dependabot and E2E setup
+
+**Tech**: React / React Native / Expo / TypeScript / Vite / Zustand / Ruby on Rails / PostgreSQL / RSpec / MCP / Intercom Fin / Stream Chat / PostHog / Datadog
+
+### **[Ynexis / Yakeey](https://yakeey.com/)** — _2025_
 
 **Tech Lead – Real Estate Estimation Platform**
 
